@@ -1,8 +1,8 @@
 name: Basic CI Pipeline
-
+# yml is used for pipeline/ workflows
 # Trigger this pipeline on every push
 
-on: [push]
+on: [push] # in every push from this repo(.github\workflows) this pipeline executed
 
 jobs:
     builds:
